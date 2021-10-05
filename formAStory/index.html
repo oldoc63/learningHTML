@@ -40,18 +40,21 @@
         <label for="num-1">Number:</label> 
         <input id="num-1" type="number" name="num-1" required>
         <br>
-        
-        <span>Yes or No</span>
-        <input id= "yes" type="radio" name="yes" value="yes" required>
+
+        <span>Yes or No:</span>
+        <input id="yes" type="radio" name="answer" value="yes" required>
         <label for="yes">Yes</label>
-        <input id= "no" type="radio" name="no" value="no" required>
-        <label for="no">No</label>
+        <input id="no" type="radio" name="answer" value="no" required>
+        <label for="no"></label>
         <br>
 
-        
+        <label for="speed">Relative speed (ends in -er):</label>
+        <select id="speed" name="speed" required>
+          <option value="slower">Slower</option>
+          <option value="faster">Faster</option>
+        </select>
+        <br>
 
-
-        
 
         <input type="submit" value="Form My Story!">
       </form>
